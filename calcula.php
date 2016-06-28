@@ -28,7 +28,9 @@ and open the template in the editor.
                 
             }
         }
-                     
+        if (!isset($cociente)) {
+            echo "ERROR: Datos incorrectos";
+        }             
         ?>
     </body>
 </html>
